@@ -1,5 +1,3 @@
-name = input("Enter Your Name:- ")
-print(f"Hello {name}")
-
-age = input("Enter Your Age:- ")
-print(age)
+def printNameAge(name, age):
+    print("Welcome Sir/Madam", name)
+    print("You are {} years old".format(age))
